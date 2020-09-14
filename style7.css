@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0;
+padding: 0;
+font-family:'Roboto', sans-serif;
+line-height: 1.6;
+font-size:1rem;
+}
+
+.header{
+background:#4c51bf;
+color:white;
+height:6.8%;
+width:100%;
+}
+
+.header a {
+    color: white;
+	text-decoration: none;
+}
+
+.name {
+    font-family: PlayfairDisplay Regular;
+    font-size: 2.5rem;
+    color: #fff;
+    width: 100vw;
+    text-align: center;
+    z-index: 1010;
+}
+
+section{
+background:none no-repeat;
+background-position: center;
+background-size: cover;
+height:auto;
+}
+
+.leftbody{
+width:50%;
+height:inherit;
+float:left;
+}
+
+.side-right {
+    background: #fff;
+    color: #47a3da;
+    outline: 1px solid #fff;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list-unstyled {
+    padding-top: 90px;
+	padding-bottom: 90px;
+    list-style: none;
+}
+
+.menu_list span {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1.2% 0;
+    transition: all 0.6s;
+}
+
+.menu_list a {
+    display: inline-block;
+    position: relative;
+    font-weight: 900;
+    font-size: 4.8vw;
+    color: transparent;
+    -webkit-text-stroke: 2px #111;
+    transition: all 0.6s;
+	text-decoration: none;
+}
+
+.menu_list a:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #333;
+    height: auto;
+    clip-path: inset(0px 100% 0px 0px);
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+li {
+    text-align: center;
+}
+
+.rightbody{
+width:50%;
+height:inherit;
+float:left;
+background:#011936;
+padding-top:266.8px;
+padding-bottom:266.8px;
+color:white;
+}
+
+footer {
+    width: 100%;
+    color:#333333;
+    background:#EBEBEB;
+    text-align: center;
+    height: 50px;
+    bottom: 0;
+	display: block;
+}
+
+footer > p {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-top: .4rem;
+}
+
+footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*===============================================
+            Smart phone & Small screen
+===============================================*/
+@media(max-width:991px)
+{
+	.leftbody{
+		width:100%;
+	}
+
+	.rightbody{
+		width:100%;
+		background:#011936;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	.list-unstyled {
+	    padding-top: 0px;
+		padding-bottom: 0px;
+    	list-style: none;
+	}
+}
+
+/*===============================================
+            mobile screen
+===============================================*/
+@media(max-width:768px)
+{
+	.leftbody{
+		width:100%;
+	}
+
+	.rightbody{
+		width:100%;
+		background:#011936;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	.list-unstyled {
+	    padding-top: 0px;
+		padding-bottom: 0px;
+    	list-style: none;
+	}
+}
+
+@media(max-width:400px)
+{
+	.leftbody{
+		width:100%;
+	}
+
+	.rightbody{
+		width:100%;
+		background:#011936;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	.list-unstyled {
+	    padding-top: 0px;
+		padding-bottom: 0px;
+    	list-style: none;
+	}
+}
+
+/*===============================================
+            Small screen
+===============================================*/
+@media(min-width:768px) and (max-width:991px)
+{
+	.leftbody{
+		width:100%;
+	}
+
+	.rightbody{
+		width:100%;
+		background:#011936;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	.list-unstyled {
+	    padding-top: 0px;
+		padding-bottom: 0px;
+    	list-style: none;
+	}
+}
+
+/*===============================================
+            Medium screen
+===============================================*/
+@media(min-width:1180px) and (max-width:1309px)
+{
+	.leftbody{
+		width:100%;
+	}
+
+	.rightbody{
+		width:100%;
+		background:#011936;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	.list-unstyled {
+	    padding-top: 0px;
+		padding-bottom: 0px;
+    	list-style: none;
+	}
+}
+
+@media(min-width:992px) and (max-width:1179px)
+{
+	.leftbody{
+		width:100%;
+	}
+
+	.rightbody{
+		width:100%;
+		background:#011936;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	.list-unstyled {
+	    padding-top: 0px;
+		padding-bottom: 0px;
+    	list-style: none;
+	}
+}
+
+@media(min-width:992px) and (max-width:1199px)
+{
+	.leftbody{
+		width:100%;
+	}
+
+	.rightbody{
+		width:100%;
+		background:#011936;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	.list-unstyled {
+	    padding-top: 0px;
+		padding-bottom: 0px;
+    	list-style: none;
+	}
+}

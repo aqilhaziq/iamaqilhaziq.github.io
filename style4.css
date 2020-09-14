@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about-container h1 .lg-heading{
+    font-size: 8rem;
+    color:#333333;
+}
+
+.about-container h1 {
+    margin: 0;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: right;
+	margin-right: 5rem;
+}
+
+.text-secondary {
+    color: #eece1a;
+}
+
+.style-one {
+    border: 0;
+    height: 0;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.column {
+    width: 100%;
+    max-width: 843px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+	margin-left: 6.5rem;
+	text-align: right;
+}
+
+.bioParagraphs {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.firstParagraph {
+    margin-top: -.5rem;
+}
+
+.column p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#about .about-container .about__title {
+    font-weight: 500;
+    text-align: right;
+    width: 46vw;
+}
+
+.about-container h2.sm-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    color: #999999;
+	text-align: right;
+	margin-right: 4rem;
+}
+.about-container h2 {
+    margin: 0;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+hr {
+    width: 50%;
+    margin: 0;
+    border: 3px solid;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+
+#about .about-container .about__p {
+    font-size: 1.6rem;
+    color:#333333;
+    width: 49vw;
+}
+
+.about-container p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: right;
+	margin-right: 5rem;
+}
+
+b {
+    font-weight: bold;
+}
+
+.about__p a {
+    color: #999999;
+    text-decoration: none;
+}
+
+#about .about-container .about__p span {
+    color:#0077FF;
+}
+
+.about__p span
+{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.colored {
+    color: #3d72a4;
+}
