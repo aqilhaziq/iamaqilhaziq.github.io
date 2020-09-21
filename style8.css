@@ -4,11 +4,15 @@
 .sec_title {
     position: relative;
     z-index: 55;
-    padding-top: 40px;
     padding-bottom: 30px;
     line-height: 1;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.sec_title h2
+{
+	font-size:99px;
 }
 
 .services{
@@ -17,7 +21,7 @@
 }
 
 .services p{
-    font-size: 20px;
+    font-size: 46px;
     padding: 0;
     margin: 0;
     max-width: 600px;
@@ -30,7 +34,7 @@
 
 .services ul{
     list-style-type: square;
-    font-size: 18px;
+    font-size: 44px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
