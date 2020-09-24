@@ -6,8 +6,7 @@
     z-index: 55;
     padding-bottom: 30px;
     line-height: 1;
-    padding-left: 50px;
-    padding-right: 50px;
+	text-align:center;
 }
 
 .sec_title h2
@@ -17,12 +16,11 @@
 
 .services{
     display: inline-block;
-	padding-left: 50px;
 }
 
 .services p{
     font-size: 46px;
-    padding: 0;
+    padding-left:165px;
     margin: 0;
     max-width: 600px;
     display: block;
@@ -30,6 +28,7 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+	text-align: center;
 }
 
 .services ul{
@@ -41,9 +40,76 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+	padding-left: 250px;
 }
 
 .services li {
     display: list-item;
     text-align: -webkit-match-parent;
+}
+
+/*===============================================
+            Medium screen
+===============================================*/
+@media(min-width:1200px) and (max-width:1309px)
+{
+	.services p{
+		padding-left:300px;
+	}
+	
+	.services ul{
+		padding-left: 322px;
+	}
+}
+
+@media(min-width:1180px) and (max-width:1199px)
+{
+	.services p{
+		padding-left:290px;
+	}
+	
+	.services ul{
+		padding-left: 313px;
+	}
+}
+
+@media(min-width:992px) and (max-width:1179px)
+{
+	.services p{
+		padding-left:195px;
+	}
+	
+	.services ul{
+		padding-left: 216px;
+	}
+}
+
+/*===============================================
+            Small screen
+===============================================*/
+@media(min-width:768px) and (max-width:991px)
+{
+	.services p{
+		padding-left:190px;
+	}
+	
+	.services ul{
+		padding-left: 210px;
+	}
+}
+
+/*===============================================
+            Smart phone & Small screen
+===============================================*/
+@media(max-width:767px)
+{
+
+}
+
+/*===============================================
+            mobile screen
+===============================================*/
+@media(max-width:400px)
+{
+
 }

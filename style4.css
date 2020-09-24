@@ -10,12 +10,12 @@
     margin: 0;
     font-weight: 400;
     display: block;
-    margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 	text-align: right;
 	margin-right: 5rem;
+	font-size: 36px;
 }
 
 .text-secondary {
@@ -37,7 +37,6 @@
     display: flex;
     flex-direction: column;
 	margin-left: 6.5rem;
-	text-align: right;
 }
 
 .bioParagraphs {
@@ -48,6 +47,7 @@
 .firstParagraph {
     margin-top: -.5rem;
 	font-size:24px;
+	text-align: justify !important;
 }
 
 .column p {
@@ -68,7 +68,7 @@
     font-size: 2.5rem;
     margin-bottom: 2rem;
     padding: 0 1rem;
-    color: #999999;
+    color: hsla(1,100%,79.61%,1.00);
 	text-align: right;
 	margin-right: 4rem;
 }
@@ -135,4 +135,46 @@ b {
 
 .colored {
     color: #3d72a4;
+}
+
+/*===============================================
+            Medium screen
+===============================================*/
+@media(min-width:1200px) and (max-width:1309px)
+{
+
+}
+
+@media(min-width:1180px) and (max-width:1199px)
+{
+
+}
+
+@media(min-width:992px) and (max-width:1179px)
+{
+
+}
+
+/*===============================================
+            Small screen
+===============================================*/
+@media(min-width:768px) and (max-width:991px)
+{
+
+}
+
+/*===============================================
+            Smart phone & Small screen
+===============================================*/
+@media(max-width:767px)
+{
+
+}
+
+/*===============================================
+            mobile screen
+===============================================*/
+@media(max-width:400px)
+{
+
 }

@@ -17,8 +17,8 @@ left:37%;
     font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-	padding-right: 9.8rem;
-    text-align: right;
+	padding-left: 100px;
+    text-align: center;
     line-height: 1.2;
     margin-top: 0;
     display: block;
@@ -27,25 +27,29 @@ left:37%;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 	color:white;
+	text-transform:uppercase;
 }
 
 .text-color-main {
     background-image: linear-gradient(135deg,#02aab0,#00cdac);
     -webkit-background-clip: text;
-    color: transparent;
+    color: yellow;
 }
 
 .page-home__title {
     display: block;
-    margin-inline-start: 0px;
+    margin-inline-start: 200px;
     margin-inline-end: 0px;
     font-family: PlayfairDisplay Bold;
     color: #fff;
     text-align: center;
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     top: 50%;
     left: 50%;
     line-height: 110%;
+	padding: 11px 0;
+	border: 2px solid #18C2E5;
+	width:683px;
 }
 
 .colored {
@@ -57,6 +61,7 @@ left:37%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+	padding-left:120px;
 }
 
 .social-icon {
@@ -84,5 +89,107 @@ left:37%;
 
 .socialMediaLogo {
     width: 32px;
-	margin: 0 .5rem;
+	margin: 0 0 0 .5rem;
+}
+
+/*===============================================
+            Medium screen
+===============================================*/
+@media(min-width:1200px) and (max-width:1309px)
+{
+	.portrait {
+		left:39%;
+	}
+	
+	.hero-title {
+		padding-left: 0px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 245px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:0px;
+	}
+}
+
+@media(min-width:1180px) and (max-width:1199px)
+{
+	.portrait {
+		left:39%;
+	}
+	
+	.hero-title {
+		padding-left: 0px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 245px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:0px;
+	}
+}
+
+@media(min-width:992px) and (max-width:1179px)
+{
+	.portrait {
+		left:37%;
+	}
+	
+	.hero-title {
+		padding-left: 0px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 150px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:0px;
+	}
+}
+
+/*===============================================
+            Small screen
+===============================================*/
+@media(min-width:768px) and (max-width:991px)
+{
+	.portrait {
+		left:37%;
+	}
+	
+	.hero-title {
+		padding-left: 0px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 148px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:0px;
+	}
+}
+
+/*===============================================
+            Smart phone & Small screen
+===============================================*/
+@media(max-width:767px)
+{
+
+}
+
+/*===============================================
+            mobile screen
+===============================================*/
+@media(max-width:400px)
+{
+
 }
