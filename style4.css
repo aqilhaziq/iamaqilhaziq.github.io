@@ -142,17 +142,110 @@ b {
 ===============================================*/
 @media(min-width:1200px) and (max-width:1309px)
 {
-
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 1043px;
+		margin-left: 7.5rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
 }
 
 @media(min-width:1180px) and (max-width:1199px)
 {
-
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 1043px;
+		margin-left: 6.7rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
 }
 
 @media(min-width:992px) and (max-width:1179px)
 {
-
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 943px;
+		margin-left:3.9rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
 }
 
 /*===============================================
@@ -160,7 +253,38 @@ b {
 ===============================================*/
 @media(min-width:768px) and (max-width:991px)
 {
-
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 943px;
+		margin-left:4rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
 }
 
 /*===============================================
