@@ -213,6 +213,38 @@ hr {
 /*===============================================
             Medium screen
 ===============================================*/
+@media(min-width:1610px) and (max-width:2509px)
+{
+	.rounded-lg {
+		border-radius: 0.5rem;
+		margin-left: 26.5rem;
+	}
+}
+
+@media(min-width:1510px) and (max-width:1609px)
+{
+	.rounded-lg {
+		border-radius: 0.5rem;
+		margin-left: 36.5rem;
+	}
+}
+
+@media(min-width:1410px) and (max-width:1509px)
+{
+	.rounded-lg {
+		border-radius: 0.5rem;
+		margin-left: 36.5rem;
+	}
+}
+
+@media(min-width:1310px) and (max-width:1409px)
+{
+	.rounded-lg {
+		border-radius: 0.5rem;
+		margin-left: 33.5rem;
+	}
+}
+
 @media(min-width:1200px) and (max-width:1309px)
 {
 	.columns {

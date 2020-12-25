@@ -51,10 +51,43 @@
 /*===============================================
             Medium screen
 ===============================================*/
-@media(min-width:1200px) and (max-width:1309px)
+@media(min-width:2200px) and (max-width:3309px)
 {
 	.services p{
 		padding-left:300px;
+		max-width: 700px;
+	}
+	
+	.services ul{
+		padding-left: 322px;
+	}
+}
+
+@media(min-width:1510px) and (max-width:1909px)
+{
+	.services p{
+		padding-left:300px;
+		max-width: 700px;
+	}
+	
+	.services ul{
+		padding-left: 322px;
+	}
+}
+
+@media(min-width:1410px) and (max-width:1509px)
+{
+	.services p{
+		padding-left:200px;
+		max-width: 700px;
+	}
+}
+
+@media(min-width:1200px) and (max-width:1409px)
+{
+	.services p{
+		padding-left:300px;
+		max-width: 700px;
 	}
 	
 	.services ul{

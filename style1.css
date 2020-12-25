@@ -136,7 +136,7 @@ footer p {
 /*===============================================
             Medium screen
 ===============================================*/
-@media(min-width:1200px) and (max-width:1309px)
+@media(min-width:1200px) and (max-width:1609px)
 {
 	.side-right {
 		margin:104px 321px;

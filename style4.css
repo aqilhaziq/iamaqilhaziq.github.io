@@ -30,7 +30,6 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-
 .column {
     width: 100%;
     max-width: 843px;
@@ -140,7 +139,159 @@ b {
 /*===============================================
             Medium screen
 ===============================================*/
-@media(min-width:1200px) and (max-width:1309px)
+@media(min-width:2200px) and (max-width:3309px)
+{
+	.column {
+		max-width: 1043px;
+		margin-left: 7.5rem;
+	}
+}
+
+@media(min-width:1510px) and (max-width:1609px)
+{	
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 1343px;
+		margin-left: 7.5rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
+}
+
+@media(min-width:1410px) and (max-width:1509px)
+{	
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 1293px;
+		margin-left: 7.5rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
+}
+
+@media(min-width:1310px) and (max-width:1409px)
+{	
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 1193px;
+		margin-left: 7.5rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
+}
+
+@media(min-width:1270px) and (max-width:1309px)
+{
+	.about-container h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.style-one
+	{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	
+	.column {
+		max-width: 1103px;
+		margin-left: 7.5rem;
+	}
+	
+	.firstParagraph {
+		color:black;
+	}
+	
+	.about-container p {
+		text-align: center;
+	}
+	
+	.about-container h2.sm-heading {
+		text-align: center;
+		margin-right: 0;
+	}
+	
+	.about-container .about__p {
+		margin-right: 0;
+	}
+}
+
+@media(min-width:1200px) and (max-width:1269px)
 {
 	.about-container h1 {
 		text-align: center;

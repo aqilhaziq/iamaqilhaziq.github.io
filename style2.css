@@ -95,10 +95,10 @@ left:37%;
 /*===============================================
             Medium screen
 ===============================================*/
-@media(min-width:1200px) and (max-width:1309px)
+@media(min-width:1510px) and (max-width:1609px)
 {
 	.portrait {
-		left:39%;
+		left:41%;
 	}
 	
 	.hero-title {
@@ -106,7 +106,87 @@ left:37%;
 	}
 	
 	.page-home__title {
-	    margin-inline-start: 245px;
+	    margin-inline-start: 410px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:0px;
+	}
+}
+
+@media(min-width:1410px) and (max-width:1509px)
+{
+	.portrait {
+		left:42%;
+	}
+	
+	.hero-title {
+		padding-left: 35px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 385px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:30px;
+	}
+}
+
+@media(min-width:1310px) and (max-width:1409px)
+{
+	.portrait {
+		left:40%;
+	}
+	
+	.hero-title {
+		padding-left: 0px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 340px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:0px;
+	}
+}
+
+@media(min-width:1280px) and (max-width:1309px)
+{
+	.portrait {
+		left:40%;
+	}
+	
+	.hero-title {
+		padding-left: 5px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 285px;
+		width:683px;
+	}
+	
+	.socialIcons {
+		padding-left:0px;
+	}
+}
+
+@media(min-width:1200px) and (max-width:1279px)
+{
+	.portrait {
+		left:40%;
+	}
+	
+	.hero-title {
+		padding-left: 0px;
+	}
+	
+	.page-home__title {
+	    margin-inline-start: 285px;
 		width:683px;
 	}
 	
